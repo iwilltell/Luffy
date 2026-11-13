@@ -29,18 +29,6 @@ npm run build    # static site in dist/ (relative paths, works on any GitHub Pag
 The **wanted poster** shows a sepia portrait taken from the live sprite. Every reaction raises his
 bounty with a rolling counter. The bounty is saved in `localStorage` (↺ resets it).
 
-## Compared with the Pikachu reference
-
-* Pikachu has 3 look poses with a blink to hide the switch. Luffy has 9 head-turn drawings with
-  hysteresis and a short cross-dissolve, so he tracks the cursor continuously.
-* Pikachu has one reaction (a giggle). Luffy has 4 (blush, laugh, feed, the full hat-chase gust).
-* Instead of a flat backdrop there is a full scene: sky gradient, twinkling stars, shooting stars,
-  moon/sun, parallax clouds, gulls, an animated ocean with a light path on the water, and a boat
-  that rides the swell. It also has a flickering lantern and a meat-on-the-bone prop.
-* The cursor leaves foam bubbles over the water and sparkles in the sky. Effects include manga
-  sound-effect pops, wind streaks, focus lines and coin bursts.
-* Synthesised sound, a bounty mini-game, keyboard shortcuts, and both portrait and landscape layouts.
-
 ## Frames
 
 The 70 Gemini frames (1280×720 on a black plate) go through `tools/build_frames.py`:
